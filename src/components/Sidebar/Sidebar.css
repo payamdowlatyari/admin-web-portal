@@ -1,0 +1,16 @@
+.sidebar-text{
+    color: #999999;
+    position: fixed;
+    bottom: 0;
+}
+.sidebar-text:hover{
+    color:#999999;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.menu-item:hover{
+    color: teal;
+    transition: 0.5s;
+}

@@ -5,7 +5,7 @@ const Footbar = () => {
   return (
 
       <div className="footer-copyright text-center py-3">
-        CalPlug &copy; {new Date().getFullYear()} All Rights Reserved
+        {/* CalPlug &copy; {new Date().getFullYear()} All Rights Reserved */}
  
 
       </div>

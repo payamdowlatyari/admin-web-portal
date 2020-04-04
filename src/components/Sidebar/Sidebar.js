@@ -1,9 +1,11 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+import './Sidebar.css';
 
 export default props => {
   return (
-    <Menu {...props}>
+    <div>
+ <Menu {...props}>
     <a className="menu-item" href="/">
       Home
     </a>
@@ -19,6 +21,17 @@ export default props => {
     <a className="menu-item" href="/desserts">
     Link
     </a>
+
+    <div className="sidebar-text">
+      <small>
+      CalPlug &copy; {new Date().getFullYear()} 
+
+      </small>
+
+  </div>
   </Menu>
+ 
+    </div>
+   
   );
 };

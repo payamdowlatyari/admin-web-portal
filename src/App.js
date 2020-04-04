@@ -5,6 +5,11 @@ import Toolbar from './components/Toolbar/Toolbar';
 import './App.css';
 import Footbar from './components/Footbar/Footbar';
 import BarChart from './components/Charts/BarChart';
+import BubbleExample from './components/Charts/Bubble';
+import ScatterExample from './components/Charts/Scatter';
+import PolarExample from './components/Charts/Polar';
+import RadarExample from './components/Charts/Radar';
+import DoughnutExample from './components/Charts/Doughnut';
 
 class App extends Component {
   constructor(){
@@ -63,7 +68,16 @@ class App extends Component {
           justifyContent: "center",
           alignItems: "center"
         }}>
+          <div>
               <BarChart chartData={this.state.chartData} location="California" legendPosition="bottom"/>
+              <BubbleExample/>
+              <ScatterExample/>
+              <PolarExample/>
+              <RadarExample/>
+              <DoughnutExample/>
+
+
+              </div>
 
               </div>
 <div className="container" style={{
