@@ -6,6 +6,6 @@
     height: 0em;
 }
 
-.nav-item:hover{
-    /* transition: .5s; */
+.nav-item a:hover{
+    transition: .5s;
 }

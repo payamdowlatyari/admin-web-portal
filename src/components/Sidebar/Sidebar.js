@@ -4,22 +4,18 @@ import './Sidebar.css';
 
 export default props => {
   return (
-    <div>
+    <div className="side-bar">
  <Menu {...props}>
     <a className="menu-item" href="/">
       Home
     </a>
 
-    <a className="menu-item" href="/burgers">
-      Link
+    <a className="menu-item" href="/Optimizer">
+    Optimizer
     </a>
 
-    <a className="menu-item" href="/pizzas">
-    Link
-    </a>
-
-    <a className="menu-item" href="/desserts">
-    Link
+    <a className="menu-item" href="/UserAdmin">
+    UserAdmin
     </a>
 
     <div className="sidebar-text">

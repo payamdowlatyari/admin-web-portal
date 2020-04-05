@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
-
-import Toolbar from './components/Toolbar/Toolbar';
 import './App.css';
+import Sidebar from './components/Sidebar/Sidebar';
+import Optimizer from './components/Optimizer';
+import UserAdmin from './components/UserAdmin';
+import Toolbar from './components/Toolbar/Toolbar';
 import Footbar from './components/Footbar/Footbar';
 import BarChart from './components/Charts/BarChart';
 import BubbleExample from './components/Charts/Bubble';
@@ -10,6 +11,11 @@ import ScatterExample from './components/Charts/Scatter';
 import PolarExample from './components/Charts/Polar';
 import RadarExample from './components/Charts/Radar';
 import DoughnutExample from './components/Charts/Doughnut';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 class App extends Component {
   constructor(){
@@ -57,17 +63,35 @@ class App extends Component {
 
   return (
     <div className="App">
+
       <div className="container">
      <Toolbar />
-    
+
+
     </div>
-    <div>
+    
+    <div className="main-content">
     <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} />     
-    <div className="container" style={{
+
+    
+<div className="container" style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center"
         }}>
+
+<Router>
+
+      <div className="router">
+        <Switch>
+          
+          <Route path="/Optimizer">
+            <Optimizer />
+          </Route>
+          <Route path="/UserAdmin">
+            <UserAdmin />
+          </Route>
+          <Route path="/">
           <div>
               <BarChart chartData={this.state.chartData} location="California" legendPosition="bottom"/>
               <BubbleExample/>
@@ -78,20 +102,17 @@ class App extends Component {
 
 
               </div>
-
-              </div>
-<div className="container" style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}>
-<footer className="navbar-fixed-bottom">
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+</div>
+    </div>
+    <footer>
 
 <Footbar/>
 
 </footer>
-</div>
-    </div>
 
     </div>
   );

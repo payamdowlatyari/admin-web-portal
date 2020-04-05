@@ -14,3 +14,12 @@ a:hover{
     color: teal;
     transition: 0.5s;
 }
+
+.side-bar{
+    /* margin-top: 3em; */
+}
+
+.bm-burger-button{
+    margin-top: 3em;
+   
+}
