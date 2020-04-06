@@ -16,6 +16,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Button from '@material-ui/core/Button';
 
 class App extends Component {
   constructor(){
@@ -99,8 +100,8 @@ class App extends Component {
               <PolarExample/>
               <RadarExample/>
               <DoughnutExample/>
-
-
+            
+           
               </div>
           </Route>
         </Switch>
@@ -109,6 +110,7 @@ class App extends Component {
 </div>
     </div>
     <footer>
+     
 
 <Footbar/>
 
