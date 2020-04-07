@@ -1,6 +1,8 @@
 .sidebar-text{
     color: #999999;
     position: fixed;
+    text-decoration: underline;
+
     bottom: 0;
 }
 .sidebar-text:hover{

@@ -6,7 +6,7 @@ export default props => {
   return (
     <div className="side-bar">
  <Menu {...props}>
-    <a className="menu-item" href="/">
+    <a className="menu-item" href="/Home">
       Home
     </a>
 

@@ -13,7 +13,7 @@ const toolbar = props => (
               <a className="nav-link" href="/"><h5>CalPlug</h5> <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              <a className="nav-link" href="/Home">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/Optimizer">Optimizer</a>
