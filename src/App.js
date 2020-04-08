@@ -18,7 +18,7 @@ class App extends Component {
   render() {
 
   return (
-    
+
     <div className="App">
         <Container>
             <Toolbar />
@@ -32,14 +32,28 @@ class App extends Component {
           justifyContent: "center",
           alignItems: "center"
         }}>
-     <Router>
-      <div className="router">
-        <Switch>         
+     <Router basename={process.env.PUBLIC_URL}>
+     <Route render = {({ location }) => (
+        //  <Layout location = { location }>
+             <Switch location = { location }>
+
+                <Route exact path = '/' component = { Home } />
+                <Route exact path = '/Optimizer/' component = { Optimizer } />
+                <Route exact path = '/UserAdmin/' component = { UserAdmin } />
+                <Route exact path = '/Home' component = { Home } />
+
+
+              </Switch>
+          //  </Layout>
+       )} />
+      {/* <div className="router"> */}
+        {/* <Switch>   
           <Route path="/Optimizer" component={Optimizer}/> 
           <Route path="/UserAdmin" component={UserAdmin}/>
-          <Route path="/" component={Home}/>
-        </Switch>
-      </div>
+            <Route path="/Home" component={Home}/>      
+          <Route path="/" component={ Home } />
+        </Switch> */}
+      {/* </div> */}
     </Router>
     </Container>
     </div>
