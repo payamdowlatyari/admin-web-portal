@@ -18,46 +18,35 @@ class App extends Component {
   render() {
 
   return (
+    
     <div className="App">
-
         <Container>
             <Toolbar />
         </Container>
-
     
     <div className="main-content">
     <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} />     
 
-    
-     <div className="container" style={{
+    <Container style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center"
         }}>
-
-  <Router>
-
+     <Router>
       <div className="router">
-        <Switch>
-          
-          <Route path="/Optimizer" component={Optimizer}/>
-           
+        <Switch>         
+          <Route path="/Optimizer" component={Optimizer}/> 
           <Route path="/UserAdmin" component={UserAdmin}/>
-           
           <Route path="/" component={Home}/>
-            
         </Switch>
       </div>
     </Router>
-    
-    </div>
+    </Container>
     </div>
      
     <Container>
       <Footbar/>
-
     </Container>
-
 
     </div>
   );
