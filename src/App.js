@@ -9,7 +9,9 @@ import Footbar from './components/Footbar/Footbar';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link,
+  NavLink
 } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 
@@ -22,6 +24,10 @@ class App extends Component {
     <div className="App">
         <Container>
             <Toolbar />
+            {/* <NavLink to="/">Home</NavLink>
+            <NavLink to="/Optimizer">Optimizer</NavLink>
+            <NavLink to="/UserAdmin">UserAdmin</NavLink> */}
+
         </Container>
     
     <div className="main-content">
@@ -32,27 +38,17 @@ class App extends Component {
           justifyContent: "center",
           alignItems: "center"
         }}>
-     <Router basename={process.env.PUBLIC_URL}>
-     <Route render = {({ location }) => (
-             <Switch location = { location }>
+    
+             <Switch>
 
                 <Route exact path = '/' component = { Home } />
+                <Route exact path = '/Home' component = { Home } />
                 <Route exact path = '/Optimizer/' component = { Optimizer } />
                 <Route exact path = '/UserAdmin/' component = { UserAdmin } />
-                <Route exact path = '/Home' component = { Home } />
 
 
               </Switch>
-       )} />
-      {/* <div className="router"> */}
-        {/* <Switch>   
-          <Route path="/Optimizer" component={Optimizer}/> 
-          <Route path="/UserAdmin" component={UserAdmin}/>
-            <Route path="/Home" component={Home}/>      
-          <Route path="/" component={ Home } />
-        </Switch> */}
-      {/* </div> */}
-    </Router>
+  
     </Container>
     </div>
      

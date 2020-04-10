@@ -1,5 +1,6 @@
 import React from 'react';
 import './Toolbar.css';
+import {NavLink} from 'react-router-dom';
 
 const toolbar = props => (
     <header className="toolbar">
@@ -10,16 +11,20 @@ const toolbar = props => (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/"><h5>CalPlug</h5> <span className="sr-only">(current)</span></a>
+              <NavLink className="nav-link" to="/"><h5>CalPlug</h5> <span className="sr-only">(current)</span></NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Home">Home</a>
+              {/* <a className="nav-link" href="/Home">Home</a> */}
+              <NavLink className="nav-link" to="/Home">Home</NavLink>
+
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Optimizer">Optimizer</a>
+              {/* <a className="nav-link" href="/Optimizer">Optimizer</a> */}
+              <NavLink className="nav-link" to="/Optimizer">Optimizer</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/UserAdmin">UserAdmin</a>
+              {/* <a className="nav-link" href="/UserAdmin">UserAdmin</a> */}
+              <NavLink className="nav-link" to="/UserAdmin">UserAdmin</NavLink>
             </li>
            
           
