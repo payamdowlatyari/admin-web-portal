@@ -4,8 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 const toolbar = props => (
     <header className="toolbar">
-
-        
+      
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
        
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -14,20 +13,15 @@ const toolbar = props => (
               <NavLink className="nav-link" to="/"><h5>CalPlug</h5> <span className="sr-only">(current)</span></NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="/Home">Home</a> */}
               <NavLink className="nav-link" to="/Home">Home</NavLink>
-
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="/Optimizer">Optimizer</a> */}
               <NavLink className="nav-link" to="/Optimizer">Optimizer</NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="/UserAdmin">UserAdmin</a> */}
               <NavLink className="nav-link" to="/UserAdmin">UserAdmin</NavLink>
             </li>
-           
-          
+                     
           </ul>
       
         </div>

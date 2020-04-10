@@ -6,13 +6,7 @@ import UserAdmin from './components/UserAdmin';
 import Home from './components/Home';
 import Toolbar from './components/Toolbar/Toolbar';
 import Footbar from './components/Footbar/Footbar';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink
-} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 
 class App extends Component {
@@ -24,10 +18,6 @@ class App extends Component {
     <div className="App">
         <Container>
             <Toolbar />
-            {/* <NavLink to="/">Home</NavLink>
-            <NavLink to="/Optimizer">Optimizer</NavLink>
-            <NavLink to="/UserAdmin">UserAdmin</NavLink> */}
-
         </Container>
     
     <div className="main-content">
@@ -43,11 +33,11 @@ class App extends Component {
 
                 <Route exact path = '/' component = { Home } />
                 <Route exact path = '/Home' component = { Home } />
+                <Route exact path = '/admin-web-portal' component = { Home } />
                 <Route exact path = '/Optimizer/' component = { Optimizer } />
                 <Route exact path = '/UserAdmin/' component = { UserAdmin } />
 
-
-              </Switch>
+            </Switch>
   
     </Container>
     </div>
