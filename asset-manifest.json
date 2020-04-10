@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/admin-web-portal/static/css/main.4328e9a0.chunk.css",
-    "main.js": "/admin-web-portal/static/js/main.d2cb69e0.chunk.js",
+    "main.css": "/admin-web-portal/static/css/main.aafb773b.chunk.css",
+    "main.js": "/admin-web-portal/static/js/main.26b87083.chunk.js",
     "runtime-main.js": "/admin-web-portal/static/js/runtime-main.a8012587.js",
-    "static/js/2.3a8ff39b.chunk.js": "/admin-web-portal/static/js/2.3a8ff39b.chunk.js",
+    "static/js/2.ff48c5d3.chunk.js": "/admin-web-portal/static/js/2.ff48c5d3.chunk.js",
     "index.html": "/admin-web-portal/index.html",
-    "precache-manifest.4c3fa9ac180e57956ac4f5ed49f9aaef.js": "/admin-web-portal/precache-manifest.4c3fa9ac180e57956ac4f5ed49f9aaef.js",
+    "precache-manifest.b7e2b641b36b53fe15d68a461d321565.js": "/admin-web-portal/precache-manifest.b7e2b641b36b53fe15d68a461d321565.js",
     "service-worker.js": "/admin-web-portal/service-worker.js",
-    "static/js/2.3a8ff39b.chunk.js.LICENSE.txt": "/admin-web-portal/static/js/2.3a8ff39b.chunk.js.LICENSE.txt"
+    "static/js/2.ff48c5d3.chunk.js.LICENSE.txt": "/admin-web-portal/static/js/2.ff48c5d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a8012587.js",
-    "static/js/2.3a8ff39b.chunk.js",
-    "static/css/main.4328e9a0.chunk.css",
-    "static/js/main.d2cb69e0.chunk.js"
+    "static/js/2.ff48c5d3.chunk.js",
+    "static/css/main.aafb773b.chunk.css",
+    "static/js/main.26b87083.chunk.js"
   ]
 }
