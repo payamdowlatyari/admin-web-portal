@@ -34,7 +34,6 @@ class App extends Component {
         }}>
      <Router basename={process.env.PUBLIC_URL}>
      <Route render = {({ location }) => (
-        //  <Layout location = { location }>
              <Switch location = { location }>
 
                 <Route exact path = '/' component = { Home } />
@@ -44,7 +43,6 @@ class App extends Component {
 
 
               </Switch>
-          //  </Layout>
        )} />
       {/* <div className="router"> */}
         {/* <Switch>   
