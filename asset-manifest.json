@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/admin-web-portal/static/css/main.ea75d97c.chunk.css",
-    "main.js": "/admin-web-portal/static/js/main.deae11a0.chunk.js",
+    "main.js": "/admin-web-portal/static/js/main.157ef926.chunk.js",
     "runtime-main.js": "/admin-web-portal/static/js/runtime-main.a8012587.js",
-    "static/js/2.7e46ab71.chunk.js": "/admin-web-portal/static/js/2.7e46ab71.chunk.js",
+    "static/js/2.969e3bb1.chunk.js": "/admin-web-portal/static/js/2.969e3bb1.chunk.js",
     "index.html": "/admin-web-portal/index.html",
-    "precache-manifest.0ca06f5e59c1a37bcfd1b94c263ab5c6.js": "/admin-web-portal/precache-manifest.0ca06f5e59c1a37bcfd1b94c263ab5c6.js",
+    "precache-manifest.6f87abf5d80a92e9966e5337d6aed309.js": "/admin-web-portal/precache-manifest.6f87abf5d80a92e9966e5337d6aed309.js",
     "service-worker.js": "/admin-web-portal/service-worker.js",
-    "static/js/2.7e46ab71.chunk.js.LICENSE.txt": "/admin-web-portal/static/js/2.7e46ab71.chunk.js.LICENSE.txt",
+    "static/js/2.969e3bb1.chunk.js.LICENSE.txt": "/admin-web-portal/static/js/2.969e3bb1.chunk.js.LICENSE.txt",
     "static/media/general.png": "/admin-web-portal/static/media/general.edd6e99d.png",
     "static/media/optimizer.png": "/admin-web-portal/static/media/optimizer.fc3827a3.png",
     "static/media/user.png": "/admin-web-portal/static/media/user.3a0c4e4f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a8012587.js",
-    "static/js/2.7e46ab71.chunk.js",
+    "static/js/2.969e3bb1.chunk.js",
     "static/css/main.ea75d97c.chunk.css",
-    "static/js/main.deae11a0.chunk.js"
+    "static/js/main.157ef926.chunk.js"
   ]
 }
