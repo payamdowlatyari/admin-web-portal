@@ -26,6 +26,29 @@ const data = {
         { x: 55, y: 25 },
         { x: 40, y: 18 },
       ]
+    },
+    {
+      label: 'My Second dataset',
+      fill: false,
+      backgroundColor: 'rgba(75,192,192,0.4)',
+      pointBorderColor: 'rgba(75,192,192,1)',
+      pointBackgroundColor: '#fff',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+      pointHoverBorderColor: 'rgba(0,220,220,1)',
+      pointHoverBorderWidth: 2,
+      pointRadius: 1,
+      pointHitRadius: 10,
+      data: [
+        { x: 12, y: 17 },
+        { x: 11, y: 56 },
+        { x: 45, y: 90 },
+        { x: 34, y: 29 },
+        { x: 66, y: 45 },
+        { x: 55, y: 26 },
+        { x: 40, y: 34 },
+      ]
     }
   ]
 };

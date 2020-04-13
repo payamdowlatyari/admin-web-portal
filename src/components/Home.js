@@ -2,87 +2,51 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import BarChart from './Charts/BarChart';
-import BubbleExample from './Charts/Bubble';
-import ScatterExample from './Charts/Scatter';
-import PolarExample from './Charts/Polar';
-import RadarExample from './Charts/Radar';
-import DoughnutExample from './Charts/Doughnut';
+import Card from 'react-bootstrap/Card';
+import './Home.css';
+import opt from '../images/optimizer.png';
+import gen from '../images/general.png';
+import user from '../images/user.png';
+import {NavLink} from 'react-router-dom';
+
+
 
 class Home extends Component{
-    constructor(){
-        super();
-        this.state = {
-          chartData:{}
-        }
-      }
-    
-      componentWillMount(){
-        this.getChartData();
-      }
-    
-      getChartData(){
-        // Ajax calls here
-        this.setState({
-          chartData:{
-            labels: ['Los Angeles', 'San Diego', 'San Francisco', 'San Jose', 'Sacramento', 'Irvine'],
-            datasets:[
-              {
-                label:'Population',
-                data:[
-                  617594,
-                  181045,
-                  153060,
-                  106519,
-                  105162,
-                  95072
-                ],
-                backgroundColor:[
-                  'rgba(255, 99, 132, 0.6)',
-                  'rgba(54, 162, 235, 0.6)',
-                  'rgba(255, 206, 86, 0.6)',
-                  'rgba(75, 192, 192, 0.6)',
-                  'rgba(153, 102, 255, 0.6)',
-                  'rgba(255, 159, 64, 0.6)',
-                  'rgba(255, 99, 132, 0.6)'
-                ]
-              }
-            ]
-          }
-        });
-      }
+ 
     render (){
         return (
-        <div>
-           <Container>
-                <Row>
-                  <Col>
-                  <BarChart chartData={this.state.chartData} location="California" legendPosition="bottom"/>
+           <Container fluid>
+             <h1 className="dashboard"><strong>Dashboard</strong></h1>
+              
+           <Row className="card-deck"> 
+  <Col xs="12" md="6" className="card"> 
+  
+  <NavLink className="nav-link" to="/General">
+      <Card.Img className="img-link" variant="top" src={gen} />
+  </NavLink>
 
-                  </Col>
-                  <Col>
-                  <BubbleExample/>
-                  <ScatterExample/>
-              <PolarExample/>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
-                  <RadarExample/>
+  </Col>
 
-                  </Col>
-                  <Col>
-                  <DoughnutExample/>
+  <Col xs="12" md="6" className="card">
+  <NavLink className="nav-link" to="/Optimizer">
+    <Card.Img className="img-link" variant="top" src={opt} />
+    </NavLink>
+   
+  </Col>
 
-                  </Col>
-                </Row>
+  <Col xs="12" md="6" className="card">
+  <NavLink className="nav-link" to="/UserAdmin">
+    <Card.Img className="img-link" variant="top" src={user} />
+    </NavLink>
+  
+  </Col>
+</Row>
 
-              </Container>
+</Container>
 
-        </div>            
             
-            );
-    }
+    );
+  }
 }
 
 export default Home;

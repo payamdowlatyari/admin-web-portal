@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import StatsCard from './Charts/StatsCard';
+import Dash from './Charts/Dash';
 
 class Optimizer extends Component{
     render (){
@@ -6,6 +8,10 @@ class Optimizer extends Component{
 
         <div>
         <h1>Optimizer</h1>
+        <StatsCard/>
+        <hr></hr>
+        <Dash/>
+
         </div>
                  
             );

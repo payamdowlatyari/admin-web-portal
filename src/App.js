@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
 import Optimizer from './components/Optimizer';
 import UserAdmin from './components/UserAdmin';
+import General from './components/General';
 import Home from './components/Home';
 import Toolbar from './components/Toolbar/Toolbar';
 import Footbar from './components/Footbar/Footbar';
@@ -34,6 +35,7 @@ class App extends Component {
                 <Route exact path = '/' component = { Home } />
                 <Route exact path = '/Home' component = { Home } />
                 <Route exact path = '/admin-web-portal' component = { Home } />
+                <Route exact path = '/General' component = { General } />
                 <Route exact path = '/Optimizer/' component = { Optimizer } />
                 <Route exact path = '/UserAdmin/' component = { UserAdmin } />
 

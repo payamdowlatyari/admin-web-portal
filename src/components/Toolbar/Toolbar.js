@@ -10,16 +10,16 @@ const toolbar = props => (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <NavLink className="nav-link" to="/"><h5>CalPlug</h5> <span className="sr-only">(current)</span></NavLink>
+              <NavLink className="nav-link" to="/"><h5><strong>CalPlug</strong> </h5> <span className="sr-only">(current)</span></NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Home">Home</NavLink>
+              <NavLink className="nav-link" to="/General">General</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/Optimizer">Optimizer</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/UserAdmin">UserAdmin</NavLink>
+              <NavLink className="nav-link" to="/UserAdmin">User Admin</NavLink>
             </li>
                      
           </ul>
