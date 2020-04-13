@@ -114,7 +114,7 @@ export default class AnalyticsDashboard1 extends Component {
                             subheading="This is an example dashboard created using build-in elements and components."
                             icon="pe-7s-car icon-gradient bg-mean-fruit"
                         /> */}
-                        <Row>
+                        {/* <Row>
                             <Col md="12" lg="6">
                                 <Card className="mb-3">
                                     <CardHeader className="card-header-tab">
@@ -564,7 +564,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <div className="row">
                             <div className="col-md-6 col-lg-3">
                                 <div className="card-shadow-danger mb-3 widget-chart widget-chart2 text-left card">
@@ -657,8 +657,8 @@ export default class AnalyticsDashboard1 extends Component {
                                     <div className="card-header">Active Users
                                         <div className="btn-actions-pane-right">
                                             <div role="group" className="btn-group-sm btn-group">
-                                                <button className="active btn btn-info">Last Week</button>
-                                                <button className="btn btn-info">All Month</button>
+                                                {/* <button className="active btn btn-info">Last Week</button>
+                                                <button className="btn btn-info">All Month</button> */}
                                             </div>
                                         </div>
                                     </div>
@@ -778,8 +778,8 @@ export default class AnalyticsDashboard1 extends Component {
                                         </table>
                                     </div>
                                     <div className="d-block text-center card-footer">
-                                        <button className="mr-2 btn-icon btn-icon-only btn btn-outline-danger"><i className="pe-7s-trash btn-icon-wrapper"> </i></button>
-                                        <button className="btn-wide btn btn-success">Save</button>
+                                        {/* <button className="mr-2 btn-icon btn-icon-only btn btn-outline-danger"><i className="pe-7s-trash btn-icon-wrapper"> </i></button>
+                                        <button className="btn-wide btn btn-success">Save</button> */}
                                     </div>
                                 </Card>
                             </Col>

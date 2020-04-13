@@ -10,6 +10,7 @@ import Footbar from './components/Footbar/Footbar';
 import { Switch, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 
+
 class App extends Component {
   
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
 
     <div className="App">
         <Container>
+          
             <Toolbar />
         </Container>
     

@@ -3,20 +3,20 @@ import {Doughnut} from 'react-chartjs-2';
 
 const data = {
 	labels: [
-		'Red',
-		'Green',
-		'Yellow'
+		'Cost',
+		'Environment',
+		'Society'
 	],
 	datasets: [{
 		data: [300, 50, 100],
 		backgroundColor: [
 		'#FF6384',
-		'#36A2EB',
+		'#4BC0C0',
 		'#FFCE56'
 		],
 		hoverBackgroundColor: [
 		'#FF6384',
-		'#36A2EB',
+		'#4BC0C0',
 		'#FFCE56'
 		]
 	}]
@@ -27,7 +27,7 @@ class DoughnutExample extends Component{
   render() {
     return (
       <div>
-        <h2>Doughnut Example</h2>
+        <h2>Optimization Preference</h2>
         <Doughnut data={data} />
       </div>
     );

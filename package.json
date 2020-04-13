@@ -20,6 +20,7 @@
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "font-awesome-icons": "^1.6.0",
+    "google-map-react": "^1.1.7",
     "mdbreact": "^4.25.5",
     "path": "^0.12.7",
     "react": "^16.13.1",

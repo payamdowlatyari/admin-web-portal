@@ -64,7 +64,7 @@ class Box extends Component {
                     transitionEnter={false}
                     transitionLeave={false}>
                     <div>
-                        <Row>
+                        {/* <Row>
                             <Col md="4">
                                 <div className="card mb-3 widget-chart">
                                     <div className="icon-wrapper rounded-circle">
@@ -162,7 +162,7 @@ class Box extends Component {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <div className="divider mt-0" style={{marginBottom: '30px'}}/>
                         <Row>
                             <Col md="4">
@@ -238,7 +238,7 @@ class Box extends Component {
                             </Col>
                         </Row>
                         <div className="divider mt-0" style={{marginBottom: '30px'}}/>
-                        <Row>
+                        {/* <Row>
                             <Col md="4">
                                 <div className="card mb-3 widget-chart card-hover-shadow-2x">
                                     <div className="icon-wrapper border-light rounded">
@@ -323,9 +323,9 @@ class Box extends Component {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <div className="divider mt-0" style={{marginBottom: '30px'}}/>
-                        <Row>
+                        {/* <Row>
                             <Col md="4">
                                 <div className="card mb-3 widget-chart">
                                     <div className="widget-chart-content">
@@ -504,7 +504,7 @@ class Box extends Component {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <div className="divider mt-0" style={{marginBottom: '30px'}}/>
                         <Row>
                             <Col md="4">
@@ -688,7 +688,7 @@ class Box extends Component {
                             </Col>
                         </Row>
                         <div className="divider mt-0" style={{marginBottom: '30px'}}/>
-                        <Row>
+                        {/* <Row>
                             <Col md="4">
                                 <div className="card mb-3 widget-chart">
                                     <div className="widget-chart-content">
@@ -866,7 +866,7 @@ class Box extends Component {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <div className="divider mt-0" style={{marginBottom: '30px'}}/>
                         <Row>
                             <Col md="4">
