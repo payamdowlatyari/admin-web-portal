@@ -28,6 +28,7 @@ class DoughnutExample extends Component{
     return (
       <div>
         <h2>Optimization Preference</h2>
+		<hr></hr>
         <Doughnut data={data} />
       </div>
     );

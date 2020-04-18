@@ -15,17 +15,17 @@ class Home extends Component{
              <br></br>
              <h1>General System Performance</h1>
              <hr></hr>
-             <StatsCard/>
+                      <StatsCard/>
                 <Row>
                 
                   <Col>
                   
-                  <Doughnut/>
+                       <Doughnut/>
 
                   </Col>
                   <Col>
                   
-              <Bar/>
+                        <Bar/>
                   </Col>
                 </Row>
                 <Row>

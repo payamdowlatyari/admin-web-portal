@@ -11,8 +11,9 @@
 }
 
 .img-link:hover{
-    width: 103%;
+    width: 102%;
     transition: 1s;
+    /* opacity: .8; */
 }
 
 .dashboard{

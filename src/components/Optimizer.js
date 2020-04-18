@@ -8,9 +8,10 @@ class Optimizer extends Component{
 
         <div>
             <br></br>
-        <h1>Optimizer Performance</h1>
-        <hr></hr>
-        <Box/>
+                <h1>Optimizer Performance</h1>
+            <hr></hr>
+            
+                <Box/>
         </div>
                  
             );

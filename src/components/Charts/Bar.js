@@ -32,7 +32,8 @@ class BarExample extends React.Component {
     render() {
         return (
             <div>
-                <h2>Charging Option</h2>
+                <h2>Charging Options</h2>
+                <hr></hr>
                 <Bar
                     data={data}
                     width={100}

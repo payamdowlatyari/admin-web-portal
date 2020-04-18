@@ -14,8 +14,8 @@ class UserAdmin extends Component{
         <h1>User Administration</h1>
         <hr></hr>
 
-<TableDark/>
-<Map/>
+            <TableDark/>
+            <Map/>
         </div>
             </Container>
             

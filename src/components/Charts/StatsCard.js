@@ -1,5 +1,5 @@
 import React from "react";
-// reactstrap components
+import './StatsCard.css';
 import {
   Card,
   CardBody,
@@ -21,7 +21,7 @@ class StatsCard extends React.Component {
     return (
       <>
         <Container>
-          <Jumbotron>
+          <Jumbotron className="jumbo">
           <Row>
             <Col>
             <Card className="card-stats mb-4 mb-lg-0">

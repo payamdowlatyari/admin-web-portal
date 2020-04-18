@@ -17,11 +17,7 @@ export default props => {
     <NavLink className="menu-item" to="/UserAdmin"><FaUser/> User Administration</NavLink>
 
     <div className="sidebar-text">
-      {/* <h6>
-      CalPlug &copy; {new Date().getFullYear()} 
-
-      </h6> */}
-
+    
   </div>
   </Menu>
  
