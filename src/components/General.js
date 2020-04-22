@@ -11,36 +11,20 @@ class Home extends Component{
  
     render (){
         return (
-           <Container>
+           <Container >
              <br></br>
              <h1>General System Performance</h1>
              <hr></hr>
                       <StatsCard/>
                 <Row>
-                
-                  <Col>
-                  
+                  <Col >
                        <Doughnut/>
-
                   </Col>
                   <Col>
-                  
                         <Bar/>
                   </Col>
                 </Row>
-                <Row>
-                  <Col>
-
-                  </Col>
-                  <Col>
-
-                  </Col>
-                </Row>
-
               </Container>
-
-                 
-            
             );
     }
 }

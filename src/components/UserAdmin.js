@@ -6,10 +6,11 @@ import Container from 'react-bootstrap/Container';
 
 class UserAdmin extends Component{
     render (){
+
         return (
             <Container>
 
-<div className="admin-content">
+        <div className="admin-content">
             <br></br>
         <h1>User Administration</h1>
         <hr></hr>

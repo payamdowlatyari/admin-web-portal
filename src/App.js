@@ -18,8 +18,7 @@ class App extends Component {
   return (
 
     <div className="App">
-        <Container>
-          
+        <Container>      
             <Toolbar />
         </Container>
     

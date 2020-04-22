@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import Box from './Charts/Box';
+import Container from 'react-bootstrap/Container';
 
 
 class Optimizer extends Component{
+    
     render (){
         return (
-
-        <div>
+        <Container>
             <br></br>
                 <h1>Optimizer Performance</h1>
-            <hr></hr>
-            
+            <hr></hr>           
                 <Box/>
-        </div>
-                 
+        </Container>
             );
     }
 }

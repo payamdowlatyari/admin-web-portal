@@ -1,23 +1,22 @@
-.card-deck{
-    margin-top: 100px;
+.card-deck {
+  margin-top: 100px;
 }
 
-.card{
-    border: transparent;
+.card {
+  border: transparent;
 }
 
-.img-link{
-    width: 100%;
+.img-link {
+  width: 100%;
 }
 
-.img-link:hover{
-    width: 102%;
-    transition: 1s;
-    /* opacity: .8; */
+.img-link:hover {
+  width: 101%;
+  transition: 0.5s;
 }
 
-.dashboard{
-    margin: 3em;
-    text-align: center;
-    color: #666666;
+.dashboard {
+  margin: 3em;
+  text-align: center;
+  color: #666666;
 }
