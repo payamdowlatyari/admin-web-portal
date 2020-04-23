@@ -7,44 +7,46 @@ import './Home.css';
 import opt from '../images/optimizer.png';
 import gen from '../images/general.png';
 import user from '../images/user.png';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
-class Home extends Component{
- 
-    render (){
-        return (
-           <Container fluid>
-             <h1 className="dashboard"><strong>Dashboard</strong></h1>
-              
-           <Row className="card-deck"> 
-  <Col xs="12" md="6" className="card"> 
-  
-  <NavLink className="nav-link" to="/General">
-      <Card.Img className="img-link" variant="top" src={gen} />
-  </NavLink>
+class Home extends Component {
 
-  </Col>
+  render() {
+    return (
+      <Container fluid>
 
-  <Col xs="12" md="6" className="card">
-  <NavLink className="nav-link" to="/Optimizer">
-    <Card.Img className="img-link" variant="top" src={opt} />
-    </NavLink>
-   
-  </Col>
+        <h1 className="dashboard"><strong>Dashboard</strong></h1>
 
-  <Col xs="12" md="6" className="card">
-  <NavLink className="nav-link" to="/UserAdmin">
-    <Card.Img className="img-link" variant="top" src={user} />
-    </NavLink>
-  
-  </Col>
-</Row>
+        <Row className="card-deck">
 
-</Container>
+          <Col xs="12" md="6" className="card">
 
-            
+            <NavLink className="nav-link" to="/General">
+              <Card.Img className="img-link" variant="top" src={gen} />
+            </NavLink>
+
+          </Col>
+
+          <Col xs="12" md="6" className="card">
+            <NavLink className="nav-link" to="/Optimizer">
+              <Card.Img className="img-link" variant="top" src={opt} />
+            </NavLink>
+
+          </Col>
+
+          <Col xs="12" md="6" className="card">
+            <NavLink className="nav-link" to="/UserAdmin">
+              <Card.Img className="img-link" variant="top" src={user} />
+            </NavLink>
+
+          </Col>
+        </Row>
+
+      </Container>
+
+
     );
   }
 }

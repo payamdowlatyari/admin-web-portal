@@ -1,19 +1,15 @@
-.sidebar-text{
-    color: #999999;
-    position: fixed;
-    bottom: 0;
-}
 
 a:hover{
     text-decoration: none;
 }
-.menu-item:hover{
-    color: teal;
+
+.menu-item:hover{  
     transition: 0.5s;
+    padding-left: 3px;   
 }
 
 .side-bar{
-    /* margin-top: 3em; */
+    margin-top: 3em;
 }
 
 .bm-burger-button{
