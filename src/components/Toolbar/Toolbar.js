@@ -22,13 +22,6 @@ const toolbar = props => (
           <li className="nav-item">
             <NavLink className="nav-link" to="/UserAdmin">User Admin</NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/UserAdmin">About Us</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/UserAdmin">Contact Us</NavLink>
-          </li>
-
         </ul>
 
       </div>
