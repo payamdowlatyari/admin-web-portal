@@ -32,6 +32,12 @@ export default class TableDark extends React.Component {
             <td>the Bird</td>
             <td>@twitter</td>
           </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>David</td>
+            <td>White</td>
+            <td>@team</td>
+          </tr>
         </tbody>
       </Table>
     );

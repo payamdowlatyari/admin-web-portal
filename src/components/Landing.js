@@ -3,22 +3,30 @@ import './Landing.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { NavLink } from 'react-router-dom';
+import { Divider } from '@material-ui/core';
 
 class Landing extends Component {
 
 
     render() {
         return (
-            <Container style={{ marginTop: '50px' }}>
+            <Container style={{ marginTop: '25vh' }}>
                 <Row>
-                    <Col>
+
+                    <Col xs={12} md={6} lg={4}>
                         <h2>Who We Are</h2>
+                        <div >
+                            The Administrative Web Portal that will provide varying controls over the entire population of Smart EVSE through the Admin Interface, alongside individual customer EVSE support through
+    the Management Console.
+                            <NavLink style={{ textAlign: 'right' }} className="nav-link" to="/Contact">Contact Us</NavLink>
+                        </div>
+                    </Col>
+                    <Col style={{ marginLeft: '100px' }}>
+                        <Divider orientation="vertical" />
 
                     </Col>
-                    <Col>
-
-                    </Col>
-                    <Col>
+                    <Col xs={12} md={6} lg={4}>
                         <form className="login">
                             <h3>Sign In</h3>
 
@@ -46,16 +54,7 @@ class Landing extends Component {
                         </form>
                     </Col>
                 </Row>
-                <Row>
-                    <div>
-                        <h2>Links</h2>
 
-                    </div><br></br>
-                    <p>
-                        <a href="http://www.caiso.com/Pages/default.aspx">California ISO</a>
-
-                    </p>
-                </Row>
             </Container>
         );
     }

@@ -11,6 +11,7 @@ import Toolbar from './components/Toolbar/Toolbar';
 import Footbar from './components/Footbar/Footbar';
 import { Switch, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
+import Contact from './components/Contact';
 
 
 class App extends Component {
@@ -37,11 +38,12 @@ class App extends Component {
 
               <Route exact path='/' component={Landing} />
               <Route exact path='/Home' component={Home} />
-              <Route exact path='/admin-web-portal' component={Home} />
+              <Route exact path='/admin-web-portal' component={Landing} />
               <Route exact path='/General' component={General} />
               <Route exact path='/Optimizer/' component={Optimizer} />
               <Route exact path='/UserAdmin/' component={UserAdmin} />
               <Route exact path='/Settings/' component={Settings} />
+              <Route exact path='/Contact/' component={Contact} />
 
             </Switch>
 
