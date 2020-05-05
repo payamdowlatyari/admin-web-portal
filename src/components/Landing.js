@@ -17,8 +17,8 @@ class Landing extends Component {
                     <Col xs={12} md={6} lg={4}>
                         <h2>Who We Are</h2>
                         <div >
-                            The Administrative Web Portal that will provide varying controls over the entire population of Smart EVSE through the Admin Interface, alongside individual customer EVSE support through
-    the Management Console.
+                            The Administrative Web Portal that will provide varying controls over the entire population of Smart EVSE through the Admin Interface,
+                            alongside individual customer EVSE support through the Management Console.
                             <NavLink style={{ textAlign: 'right' }} className="nav-link" to="/Contact">Contact Us</NavLink>
                         </div>
                     </Col>
@@ -47,10 +47,11 @@ class Landing extends Component {
                                 </div>
                             </div>
 
-                            <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                            <button type="submit" className="btn btn-primary btn-block">Logout</button>
                             <p className="forgot-password text-right">
                                 Forgot <a href="#">password?</a>
                             </p>
+
                         </form>
                     </Col>
                 </Row>

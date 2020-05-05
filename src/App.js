@@ -45,6 +45,7 @@ class App extends Component {
               <Route exact path='/Settings/' component={Settings} />
               <Route exact path='/Contact/' component={Contact} />
 
+
             </Switch>
 
           </Container>

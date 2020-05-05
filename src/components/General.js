@@ -7,26 +7,26 @@ import Doughnut from './Charts/Doughnut';
 import StatsCard from './Charts/StatsCard';
 
 
-class Home extends Component{
- 
-    render (){
-        return (
-           <Container >
-             <br></br>
-             <h1>General System Performance</h1>
-             <hr></hr>
-                      <StatsCard/>
-                <Row>
-                  <Col >
-                       <Doughnut/>
-                  </Col>
-                  <Col>
-                        <Bar/>
-                  </Col>
-                </Row>
-              </Container>
-            );
-    }
+class Home extends Component {
+
+  render() {
+    return (
+      <Container >
+        <br></br>
+        <h1>General System Performance</h1>
+        <hr></hr>
+        <StatsCard />
+        <Row>
+          <Col >
+            <Doughnut />
+          </Col>
+          <Col>
+            <Bar />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
 }
 
 export default Home;
