@@ -7,7 +7,7 @@ const Footbar = () => {
     <div className="footer-copyright text-center py-3">
       <nav className="navbar fixed-bottom navbar-dark bg-dark">
         CalPlug &copy; {new Date().getFullYear()} | All Rights Reserved
-        <div className="social-links">
+        {/* <div className="social-links">
           <a href="/" class="fa fa-envelope"></a>
           <a href="/" class="fa fa-phone"></a>
           <a href="/" class="fa fa-twitter"></a>
@@ -16,7 +16,7 @@ const Footbar = () => {
           <a href="/" class="fa fa-github"></a>
           <a href="/" class="fa fa-google"></a>
           <a href="/" class="fa fa-youtube"></a>
-        </div>
+        </div> */}
       </nav>
 
     </div>

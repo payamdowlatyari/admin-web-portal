@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './Contact.css';
+import Container from 'react-bootstrap/Container';
 
 
 class Contact extends Component {
 
     render() {
         return (
-            <div>
+            <Container style={{
+                marginTop: '50px'
+            }}>
                 <br></br>
                 <h1>Contact Us</h1>
                 <hr></hr>
@@ -31,7 +34,7 @@ class Contact extends Component {
                         </form>
                     </div>
                 </div>
-            </div>
+            </Container>
 
         );
     }
