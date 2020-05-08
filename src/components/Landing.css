@@ -18,10 +18,12 @@
 
 .social-link button:hover{
 
-    /* color:#fff;
-    background-color: #444444; */
-    /* border: transparent; */
-
     color: #444444;
     transition: .3s;
+}
+
+.social-link button:focus{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
 }
