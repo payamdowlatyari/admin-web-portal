@@ -34,6 +34,23 @@ class Contact extends Component {
                         </form>
                     </div>
                 </div>
+
+                <div className="social-link" style={{ position: 'elative', bottom: '10px' }}>
+                    <button class="fa fa-envelope"></button>
+                    <button class="fa fa-phone"></button>
+                    <button class="fa fa-twitter"></button>
+                    <button class="fa fa-facebook"></button>
+                    <button class="fa fa-linkedin"></button>
+                    <button class="fa fa-github"></button>
+                    <button class="fa fa-google"></button>
+                    <button class="fa fa-youtube"></button>
+
+
+
+                    <p style={{ top: '20px', button: '0px', position: 'relative' }}>
+                        CalPlug &copy; {new Date().getFullYear()} | All Rights Reserved
+                            </p>
+                </div>
             </Container>
 
         );
