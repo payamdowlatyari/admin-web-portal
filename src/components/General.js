@@ -33,7 +33,6 @@ class Home extends Component {
             <EnergyDemand />
           </Col>
         </Row>
-
       </Container>
     );
   }

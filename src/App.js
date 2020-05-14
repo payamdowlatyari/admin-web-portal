@@ -12,7 +12,10 @@ import Footbar from './components/Footbar/Footbar';
 import { Switch, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Contact from './components/Contact';
-
+import Analytics from './components/Analytics';
+import CreateUser from './components/Data/CreateUser';
+import CreateProfile from './components/Data/CreateProfile';
+import EditProfile from './components/Data/EditProfile';
 
 class App extends Component {
 
@@ -27,7 +30,6 @@ class App extends Component {
 
         <div className="main-content">
           <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} />
-
           <Container style={{
             display: "flex",
             justifyContent: "center",
@@ -44,7 +46,10 @@ class App extends Component {
               <Route exact path='/UserAdmin/' component={UserAdmin} />
               <Route exact path='/Settings/' component={Settings} />
               <Route exact path='/Contact/' component={Contact} />
-
+              <Route exact path='/Analytics/' component={Analytics} />
+              <Route path="/EditProfile/:id" component={EditProfile} />
+              <Route path="/CreateProfile" component={CreateProfile} />
+              <Route path="/CreateUser" component={CreateUser} />
 
             </Switch>
 
